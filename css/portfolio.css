@@ -64,10 +64,10 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
-    background-image: url('../image/img2.png');
+    background-image: url('../image/img1.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 500px;
+    
     
      
     
@@ -84,13 +84,7 @@ nav a{
     justify-content: space-between;
 }
 
-.myimg{
-    width: 300px;
-    margin-top: 200px;
-    padding-right: 60px;
-    
-    
-}
+
 .banner-content{
     max-width: 500px;
     margin-bottom: 40px;
@@ -122,11 +116,24 @@ nav a{
 
 /* main section  */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about section */
 
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px;
+    margin: 130px 0;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
