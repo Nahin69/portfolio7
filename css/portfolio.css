@@ -64,9 +64,9 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
-    background-image: url('../image/img1.png');
+    background-image: url('../image/img1.png'), url('../image/img2.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     
     
      
@@ -111,6 +111,10 @@ nav a{
 .banner-dec{
     padding:10px;
     
+}
+
+.icon{
+    color: white;
 }
 
 
